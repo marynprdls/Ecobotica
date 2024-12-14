@@ -4,31 +4,30 @@
 
 ### 1. Presentación de empresa
 
-![image](https://github.com/user-attachments/assets/8b6b790a-8f03-41f4-8a3a-5775ca97d30d)
+![Inicio Ecobótica](img/logogifecobotica.gif)
 
-### 2. Diseño de la base de datos:
+### 2. Nuestra visión y misión:
 
-![image](https://github.com/user-attachments/assets/9f7d7689-e1c8-4914-ab95-b4ca0cd43d85)
+![Misión y Visión](img/CapturaPagweb1.PNG)
 
-### 3. Herramienta de diseño: DBDesing
+### 3. Prototipo educativo BeetleBOt
+![Prototipo](img/mariquita/gifmisionbigscreen.gif)
 
 ## Procedimiento
 
-### 1. Preparación de los datos: Obtenido de ChatGPT
-
-### 2. Estructura del proyecto: Se creo en node.js la estructura basica               
-
-### 3. Configuración de la conexión a MySQL:
--  Se configuro el .env con el host , usuario y contraseña .
--  Se creo el .env.example  
-
-
 
 ### Desarrolladora
-
 <div align='center'>
-  
+
 | [<img src="https://github.com/marynprdls.png"  width="150" height="150"><br>marynprdls](https://github.com/marynprdls) |
 |-----------------|-----------------|
   
 </div>
+
+### Participantes del trabajo de Economia.
+### - Acuña Quispe Diana.
+### - Oliva Sáenz Marbel del Milagro.
+### - Pasten Mariana.
+### - Pozo Alvarez Sandra Roxana. 
+### - Vicens Isabel. 
+### - Vasquez Berenice.
