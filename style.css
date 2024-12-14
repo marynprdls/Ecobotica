@@ -1,0 +1,137 @@
+/*inicio formato general*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{   
+    background-color: rgb(185, 216, 179);
+}
+
+.botonav{
+    font-weight: bold;
+    color:black;
+    width: 125px;
+    height:50px;
+}
+
+.botonav:hover{
+    font-weight: bold;
+    color: rgb(49, 117, 35);
+    text-decoration:solid;
+    background-color: rgb(240, 250, 217);
+}
+
+.logorobotnav:hover{
+    content: url('/img/ECOHOVER.png');
+}
+
+.dropdown-menu li{
+    position:relative;
+}
+.dropdown-menu>li:hover>.submenu{
+    display: block;
+}
+.dropdown-menu .submenu{
+    position: absolute;
+    display: none;
+    left:50%;
+    top:0px;
+}
+
+@media(min-width:1024px){
+    .dropdown-menu li{
+        position:relative;
+    }
+    .dropdown-menu .submenu{
+        position: absolute;
+        display: none;
+        left:100%;
+        top:-7px;
+    }
+    
+}
+/* FONTS */
+
+.crimson-text-bold {
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style:normal;
+    color:rgb(11, 114, 19)
+  }
+
+.patrick-hand-regular {
+    font-family: "Patrick Hand", cursive;
+    font-weight: 600;
+    font-style: normal;
+    color:rgb(11, 114, 19)
+  }
+  
+/* main */
+.empresa{
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+.piedepag{
+    margin: 1px;
+    border: solid 1px #08f8505c;
+    padding: 1px;
+    background-color:rgb(26, 94, 40);
+}
+.footercontenido{
+    opacity: 75%;
+}
+.icon-link{
+    color: black;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+.icon-link:hover{
+    color: #4ada56;
+}
+.dire:hover{
+    color: #4ada56;
+}
+.dire{
+    font-weight: bolder;
+    font-size: 20px;
+    color:black;
+    width: 400px;
+    height: 30px;
+ }
+
+
+.sticky-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(21, 238, 119, 0.5);
+    cursor: pointer;
+  }
+.imagensticky {
+    width: 100%;
+    border-radius: 50%;
+    background-position: center;
+
+}
